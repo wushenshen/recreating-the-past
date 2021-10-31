@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Zen+Kurenaido&display=swap');
+
+:root {
+  --oxford-blue-color: #0A1F4C;
+  --byzantium-color: #763258;
+  --medium-carmine-color: #AD4C31;
+  --ochre-color: #CA7A12;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Zen Kurenaido', Arial, Helvetica, sans-serif;
+  margin: 20px;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+a, a:visited {
+  color: var(--oxford-blue-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--ochre-color);
+}
+
+main {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  display: block;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+}
+
+#container {
+  display: flex;
+}
+
+#images {
+  display: block;
+}
+
+#original {
+  margin-bottom: 20px;
+}
+
+#process {
+  padding-left: 20px;
+}
+
+.variable {
+  color: var(--medium-carmine-color);
+  font-family: "PT Mono", 'Times New Roman', Times, serif;
+  font-size: .8em;
+}
+
+#quotes div {
+  width: 800px;
+  margin: 20px 0;
+}
+
+#quotes .selected {
+  font-style: italic;
+  color: var(--medium-carmine-color);
+}
