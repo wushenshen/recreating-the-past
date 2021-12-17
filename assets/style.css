@@ -67,3 +67,16 @@ footer {
   font-style: italic;
   color: var(--medium-carmine-color);
 }
+
+li ul {
+  margin-top: 0;
+  margin-left: 2em;
+}
+
+#container {
+  display: block;
+}
+
+#original img {
+  max-width: 900px;
+}
