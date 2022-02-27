@@ -10,8 +10,7 @@ const UNDER = false;
 
 const PATTERN1 = [OVER, UNDER, OVER, UNDER, OVER, UNDER, OVER, UNDER, OVER, UNDER, OVER, UNDER]
 const PATTERN2 = [UNDER, OVER, OVER, UNDER, OVER, OVER, UNDER, OVER, OVER, UNDER, OVER, OVER]
-const PATTERN3 = [UNDER, OVER, OVER, OVER, UNDER, OVER, OVER, OVER, UNDER, OVER, OVER, OVER]
-const pattern = PATTERN1
+const pattern = PATTERN2 // Switch to PATTERN1 to recreate the first of the sketches
 
 let x = COUNT * 3;
 let y = COUNT * 3;
